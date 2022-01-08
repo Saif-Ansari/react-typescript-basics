@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 //Conventional proposal
@@ -9,7 +8,7 @@ function Heading({ title }: { title: string }) {
 function App() {
   return (
     <div className="App">
-      <Heading title="Heading" />
+      <Heading title="hello typescript" />
     </div>
   );
 }
